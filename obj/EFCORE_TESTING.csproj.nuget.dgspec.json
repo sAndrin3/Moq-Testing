@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/petrolhead/Documents/Lets/EFCORE_TESTING/EFCORE_TESTING.csproj": {}
+  },
+  "projects": {
+    "/home/petrolhead/Documents/Lets/EF CORE/EF CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/petrolhead/Documents/Lets/EF CORE/EF CORE.csproj",
+        "projectName": "EF CORE",
+        "projectPath": "/home/petrolhead/Documents/Lets/EF CORE/EF CORE.csproj",
+        "packagesPath": "/home/petrolhead/.nuget/packages/",
+        "outputPath": "/home/petrolhead/Documents/Lets/EF CORE/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/petrolhead/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/petrolhead/Documents/Lets/EFCORE_TESTING/EFCORE_TESTING.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/petrolhead/Documents/Lets/EFCORE_TESTING/EFCORE_TESTING.csproj",
+        "projectName": "EFCORE_TESTING",
+        "projectPath": "/home/petrolhead/Documents/Lets/EFCORE_TESTING/EFCORE_TESTING.csproj",
+        "packagesPath": "/home/petrolhead/.nuget/packages/",
+        "outputPath": "/home/petrolhead/Documents/Lets/EFCORE_TESTING/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/petrolhead/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/petrolhead/Documents/Lets/EF CORE/EF CORE.csproj": {
+                "projectPath": "/home/petrolhead/Documents/Lets/EF CORE/EF CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
