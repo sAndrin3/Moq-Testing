@@ -1,16 +1,15 @@
 using Moq;
 using EF_CORE;
-using NUnit.Framework;
 
 namespace EFCORE_TESTING
 {
-    public class Tests
+    [TestFixture]
+    public class AddTourTests
     {
         [Test]
         public void AddNewTour_ShouldAddTourToContext()
         {
             // Arrange
-            
             var contextMock = new Mock<ApplicationDBContext>();
             var queries = new Queries(contextMock.Object);
 

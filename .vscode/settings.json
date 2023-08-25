@@ -1,0 +1,3 @@
+{
+    "dotnet.defaultSolution": "EFCORE_TESTING.sln"
+}
